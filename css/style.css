@@ -1,0 +1,46 @@
+.container_inicio {
+    display: block;
+    margin: 4em 2em;
+}
+.logo {
+        display: flex;
+        height: 3em;
+}
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+    justify-content: flex-end;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.map_animated {
+    display: block;
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+
+.text_title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin: 1em auto;
+}
+
+.motto h2{
+    display: flex;
+    justify-content: center;
+    font-size: 1.7em
+    width: 75%;
+}
+ h2{
+    color: rgb(160, 50, 31);
+    margin: 1em auto;
+    font-weight: 2000;
+    font-family: 'Cedarville Cursive', cursive;
+ }
