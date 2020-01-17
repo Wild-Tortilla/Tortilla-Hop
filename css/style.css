@@ -44,3 +44,6 @@
     font-weight: 2000;
     font-family: 'Cedarville Cursive', cursive;
  }
+.nav{
+  list-style-type: none;
+}
