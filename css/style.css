@@ -88,4 +88,23 @@ display: block;
   list-style-type: none;
 }
 
+.container_routes1{
+  border: 1px solid black;
+  height: 500px;
+  margin: 2em 2em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
+.horizontal_city_card{
+  border: 1px solid black;
+  height: 26rem;
+  width: 40rem;
+  justify-content: space-evenly;
+}
+
+.card{
+  height: 415px;
+  justify-content: space-evenly;
+}
