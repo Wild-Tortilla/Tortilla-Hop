@@ -91,7 +91,7 @@ display: block;
 .container_routes1{
   border: 1px solid black;
   height: 500px;
-  margin: 2em 2em;
+  margin: 3em 2em 2em 2em;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -107,4 +107,16 @@ display: block;
 .card{
   height: 415px;
   justify-content: space-evenly;
+}
+
+.card p{
+  font-family: 'Cardo', serif;
+}
+
+.card h5{
+  font-family: 'Cedarville Cursive', cursive;
+}
+
+.routes_title_subtitle{
+  
 }
