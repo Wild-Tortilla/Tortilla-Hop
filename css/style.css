@@ -133,6 +133,14 @@ display: block;
   margin: 3em 2em 2em 2em;
 }
 
+.external_container_Hcards {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  margin: 0 1.2em;
+}
+
+
 .horizontal_recipe_card {
   display: flex;
   flex-direction: row;
@@ -140,7 +148,7 @@ display: block;
   height: 16rem;
   width: 50rem;
   justify-content: space-between;
-  margin: 0 2rem;
+  margin: 0 2rem 2rem 0.5rem;
 }
 
 .img_part { 
@@ -154,7 +162,7 @@ display: block;
 
 .recipe_pic {
   border: 1px solid black;
-  width: 12rem;
+  width: 13rem;
   
   
 }
