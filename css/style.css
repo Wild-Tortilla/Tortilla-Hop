@@ -1,33 +1,44 @@
 /* FOOTER */
 .page-footer{
-  background-color: rgb(255, 215, 0);
+  background-color: white;
   width: 100%;
   height: 126px;
-  -webkit-box-shadow: 0px -6px 6px 0px rgba(255,191,0,1);
-  -moz-box-shadow: 0px -6px 6px 0px rgba(255,191,0,1);
-  box-shadow: 0px -6px 6px 0px rgba(255,191,0,1);
-  
 }
 /* SOCIAL BUTTONS */
+
 .facebook, .linkedin{
   color: rgb(0, 0, 139);
 }
+
 .twitter{
   color:rgb(1, 1, 253);
 }
+
 .youtube{
   color:rgb(248, 4, 4);
 }
+
 .instagram{
   color:rgb(221, 17, 136);
 }
-.facebook,.linkedin,.instagram,.youtube,.twitter{
+
+.github{
+  color:black;
+}
+
+.facebook,.linkedin,.instagram,.youtube,.twitter,.github{
   font-weight: bold;
   font-size: 22px;
 } 
+
 .facebook:hover,.linkedin:hover,.instagram:hover,.youtube:hover,.twitter:hover{
   color: black;
 }
+
+.github:hover{
+  opacity: 0.6;
+}
+
 .pink{
   color: #f65454;
 }
@@ -95,49 +106,6 @@ small{
   color:black;
 }
 
-/* PROYECTO1 */
-
-.tortilla_betanzos{
-  border-radius: 191px;
-  border: 2px solid white;
-  position: absolute;
-  bottom: 186px;
-  left: 27px;
-}
-
-@media screen and (max-width: 494px){
-  .tortilla_betanzos{
-    width: 80px;
-    height: 80px;
-    top: 20px;
-  }
-}
-
-@media screen and (min-width: 768px){
-  .tortilla_betanzos{
-    width: 80px;
-    height: 80px;
-    top: 20px;
-  }
-}
-
-@media screen and (min-width: 495px) and (max-width: 767px){
-  .tortilla_betanzos{
-    width: 80px;
-    height: 80px;
-    top: 20px;
-  }
-}
-
-@media screen and (min-width: 1200px){
-  .tortilla_betanzos{
-    width: 110px;
-    height: 110px;
-    top: 20px;
-  }
-}
-
-
 
 /* HORIZONTAL CARDS RECIPES */
 
@@ -158,13 +126,7 @@ small{
   flex-wrap: wrap;
 }
 
-li {
-  list-style: none;
-  display: inline-block;
-  width: calc(100% / 4);
-  height: 2em;
-  text-align: left;
-}
+
 
 /*declare a css grid, set width and height of the container, name cells*/
 .horizontal_recipe_card {
@@ -189,19 +151,16 @@ li {
   justify-self: stretch;
 }
 
-<<<<<<< HEAD
 .recipe_pic {
   border: 1px solid black;
   width: 13rem;
   
-=======
 /*with > select child of the image div, and set sizing properties*/
 .img_part > img {
     padding: 1rem;
     object-fit: cover;
     width: 100%;
     max-height: 100%;
->>>>>>> b9c729b72c6e3c3c470403e9bf8f34a2dd1c227d
 }
 
 /*the below assigns a section of the grid to each element, one for the text area, the other one for the link*/
@@ -211,7 +170,6 @@ li {
   text-align: center;
 }
 
-<<<<<<< HEAD
 .btn {
   background-color: rgb(255, 230, 0);
   color: brown;
@@ -224,7 +182,6 @@ li {
   color: rgb(255, 230, 0)
 }
 
-=======
 .recipe_link {
   grid-area: link;
   text-align: right;
@@ -237,4 +194,3 @@ li {
   color: rgb(185, 56, 34);
   
 }
->>>>>>> b9c729b72c6e3c3c470403e9bf8f34a2dd1c227d
