@@ -3,11 +3,14 @@
   background-color: rgb(255, 215, 0);
   width: 100%;
   height: 126px;
-  -webkit-box-shadow: 0px -6px 6px 0px rgba(255,191,0,1);
-  -moz-box-shadow: 0px -6px 6px 0px rgba(255,191,0,1);
-  box-shadow: 0px -6px 6px 0px rgba(255,191,0,1);
-  
+  margin-top:44px;
+  background-color: white;
 }
+
+.pink{
+  color: #f65454;
+}
+
 /* SOCIAL BUTTONS */
 .facebook, .linkedin{
   color: rgb(0, 0, 139);
@@ -25,7 +28,11 @@
   color:rgb(221, 17, 136);
 }
 
-.facebook,.linkedin,.instagram,.youtube,.twitter{
+.github{
+  color: black
+}
+
+.facebook,.linkedin,.instagram,.youtube,.twitter,.github{
   font-weight: bold;
   font-size: 22px;
 } 
@@ -34,11 +41,11 @@
   color: black;
 }
 
-.pink{
-  color: #f65454;
+.github:hover{
+  opacity: 0.6;
 }
 
-
+/* NAVBAR */
 .container_inicio {
 display: block;
     margin: 4em 2em;
@@ -90,42 +97,61 @@ display: block;
   list-style-type: none;
 }
 
+.routes_title_subtitle{
+  text-align: center;
+}
+
+
 /* CARDS ROUTES */
 
-.container_routes1{
-  border: 1px solid black;
-  height: 500px;
-  margin: 3em 2em 2em 2em;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+small{
+  font-family: montserrat, sans-serif;
+  color:black;
 }
 
-.horizontal_city_card{
-  border: 1px solid black;
-  height: 26rem;
-  width: 40rem;
-  justify-content: space-evenly;
+/* PROYECTO1 */
+
+.tortilla_betanzos{
+  border-radius: 191px;
+  border: 2px solid white;
+  position: absolute;
+  bottom: 186px;
+  left: 27px;
 }
 
-.card{
-  height: 32rem;
-  justify-content: space-evenly;
+@media screen and (max-width: 494px){
+  .tortilla_betanzos{
+    width: 80px;
+    height: 80px;
+    top: 20px;
+  }
 }
 
-.card p{
-  font-family: 'Cardo', serif;
+@media screen and (min-width: 768px){
+  .tortilla_betanzos{
+    width: 80px;
+    height: 80px;
+    top: 20px;
+  }
 }
 
-.card h5{
-  font-family: 'Cedarville Cursive', cursive;
-  
+@media screen and (min-width: 495px) and (max-width: 767px){
+  .tortilla_betanzos{
+    width: 80px;
+    height: 80px;
+    top: 20px;
+  }
 }
 
-.routes_title_subtitle{
-  margin: 3em 2em 2em 2em;
-  
+@media screen and (min-width: 1200px){
+  .tortilla_betanzos{
+    width: 110px;
+    height: 110px;
+    top: 20px;
+  }
 }
+
+
 
 /* HORIZONTAL CARDS RECIPES */
 
@@ -164,7 +190,6 @@ display: block;
   border: 1px solid black;
   width: 13rem;
   
-  
 }
 
 .description_part {
@@ -179,7 +204,7 @@ display: block;
 .btn {
   background-color: rgb(255, 230, 0);
   color: brown;
-  
+  margin-left: 150px;
   border: rgb(255, 230, 0);
 }
 
@@ -187,3 +212,4 @@ display: block;
   background-color: brown;
   color: rgb(255, 230, 0)
 }
+
