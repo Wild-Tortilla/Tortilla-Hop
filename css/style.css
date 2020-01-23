@@ -30,7 +30,6 @@
 
 
 
-
 .container_inicio {
 display: block;
     margin: 4em 2em;
@@ -138,6 +137,11 @@ h4 {
   font-size: 17px;
   color: rgb(82, 79, 79);
 }
+
+.img-fluid:hover{
+  opacity: 0.78;
+}
+
 
 
 
