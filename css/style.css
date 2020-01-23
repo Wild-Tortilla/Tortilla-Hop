@@ -82,10 +82,26 @@ display: block;
 }
  h2 {
     color: rgb(160, 50, 31);
-    margin: 1em auto;
+    margin: 1em 1.5em;
     font-weight: 2000;
     font-family: 'Cedarville Cursive', cursive;
  }
+
+ h3 {
+  color: rgb(160, 50, 31);
+  margin: 1em 1.5em;
+  font-size: 1.2em;
+  font-weight: 2000;
+  font-family: Montserrat', sans-serif;
+}
+
+h4 {
+  color: rgb(160, 50, 31);
+  font-weight: 3000;
+  font-size: 2.5vw;
+  font-family: 'Cedarville Cursive', cursive;
+}
+
 .nav {
   list-style-type: none;
 }
@@ -130,7 +146,7 @@ display: block;
 /* HORIZONTAL CARDS RECIPES */
 
 .recipes_title_subtitle {
-  margin: 3em 2em 2em 2em;
+  margin: 3em 2em em 2em;
 }
 
 .external_container_Hcards {
@@ -140,46 +156,34 @@ display: block;
   margin: 0 1.2em;
 }
 
-.recipes_list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-li {
-  list-style: none;
-  display: inline-block;
-  width: calc(100% / 4);
-  height: 2em;
-  text-align: left;
-}
 
 /*declare a css grid, set width and height of the container, name cells*/
 .horizontal_recipe_card {
+  /*hide backface after rotation*/
+  backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
   display: grid;
-  margin: 1.5rem;
-  width: 75vw;
-  height: 45vh;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas: 
-    "image image image text text ."
-    "image image image text text link"
-    "image image image text text .";
-  border: 1px solid black;
-  
+    "image image text text text ."
+    "image image text text text ."
+    "image image text text text link";
+  border: 1px rgba(243, 184, 184, 0.603);
+  box-shadow: 10px 10px 23px -8px rgba(194,194,194,0.62);
 }
 
 /*declare section of the grid dedicated to image*/
 .img_part { 
   grid-area: image;
-  border: 1px solid black;
+  border: 1px solid rgba(224, 224, 224, 0.329);
   justify-self: stretch;
 }
 
 /*with > select child of the image div, and set sizing properties*/
 .img_part > img {
-    padding: 1rem;
+    padding: 0.75rem;
     object-fit: cover;
     width: 100%;
     max-height: 100%;
@@ -188,19 +192,126 @@ li {
 /*the below assigns a section of the grid to each element, one for the text area, the other one for the link*/
 .description_part {
   grid-area: text;
-  border: 1px solid black;
+  border: 1px solid rgba(204, 204, 204, 0.137);
   text-align: center;
 }
 
+.description_part h2 {
+  margin: 0.5em auto;
+  font-family: 'Cedarville Cursive', cursive;
+  font-weight: 2000;
+} 
+
+.description_part h3 {
+  margin: 2em auto 0.7em;
+  text-transform: uppercase;
+  color: rgb(82, 79, 79);
+} 
+
+.description_part h4 {
+  font-size: 2em;
+  color: rgb(255, 210, 8)
+  
+} 
+
 .recipe_link {
   grid-area: link;
-  text-align: right;
   display: flex;
+  text-align: center;
   justify-content: center;
 }
 
-#link {
-  
+#textlink {
+  align-self: center;
   color: rgb(185, 56, 34);
   
 }
+
+.description_part p {
+  font-family: 'Cardo', serif;
+  font-size: 1em;
+  text-align: justify;
+  margin: 1em;
+  
+}
+
+
+/* FLIP CARD */
+.flip-card {
+  margin: 2.5rem;
+  width: 75vw;
+  height: 45vh;
+  background-color: transparent;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 1.2s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateX(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+
+/* Style the back side */
+.flip-card-back {
+  background-color: rgb(255, 214, 30);
+  color: white;
+  transform: rotateX(180deg);
+  display: flex;
+
+}
+
+/* Back side divided in two blocks: left and right */
+.left_block {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1.2em;
+  width: 20%;
+}
+
+.title_back {
+  display: flex;
+  margin: 0 1.2em;
+  justify-self: center;
+}
+
+.ingredients {
+  font-family: 'Cardo', serif;
+  font-size: 1em;
+  text-align: justify;
+  justify-self: left;
+
+}
+
+.flip-card-back h3 {
+font-size: 1.2em;
+}
+
+.flip-card-back h4 {
+  text-align: left;
+  font-size: 1.5em;
+  }
+
+.right_block{
+  font-family: 'Cardo', serif;
+  font-size: 0.8em;
+  text-align: justify;
+  margin: 1.2em;;
+
+  }
