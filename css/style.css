@@ -3,8 +3,10 @@
   background-color:#f8f9fa;
   width: 100%;
   height: 126px;
+  margin-top: 65px;
 }
-/* FOOTER */
+
+
 
 /* SOCIAL BUTTONS */
 .facebook,.linkedin,.twitter,.youtube,.instagram,.github{
@@ -24,7 +26,6 @@
 .pink{
   color: #f65454;
 }
-/* SOCIAL BUTTONS */
 
 
 
@@ -82,7 +83,7 @@ display: block;
   margin: 1em 1.5em;
   font-size: 1.2em;
   font-weight: 2000;
-  font-family: Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 h4 {
@@ -96,7 +97,49 @@ h4 {
   list-style-type: none;
 }
 
-/* CARDS ROUTES */
+
+
+/* ROUTES */
+.divider_routes{
+  margin: 40px auto;
+}
+
+.btn,btn-primary{
+  margin-left: 150px;
+  background-color: rgb(247, 205, 79);
+  border: 1px solid white;
+}
+
+.btn:hover{
+  background-color: black;
+  border: 1px solid white;
+} 
+
+.h3_javi{
+  font-family: "Montserrat", "sans-serif";
+  color: black;
+  margin: 1em auto;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 20px;
+  color: rgb(82, 79, 79);
+}
+
+.h2_javi{
+  color:rgb(160, 50, 31);
+  margin-top: 40px;
+  font-family: 'Cedarville Cursive', cursive;
+  font-weight: bold;
+  margin-left: 0px;
+}
+
+.p_javi{
+  font-family: "cardo" , cursive;
+  font-size: 17px;
+  color: rgb(82, 79, 79);
+}
+
+
 
 .container_routes1{
   border: 1px solid black;
