@@ -269,7 +269,7 @@ h4 {
 
 /* Back side divided in two blocks: left and right */
 .left_block {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   margin: 0 1.2em;
   width: 20%;
@@ -278,14 +278,14 @@ h4 {
 .title_back {
   display: flex;
   margin: 0 1.2em;
-  justify-self: center;
+  align-self: left;
 }
 
 .ingredients {
   font-family: 'Cardo', serif;
   font-size: 1em;
   text-align: justify;
-  justify-self: left;
+  align-self: left;
 
 }
 
