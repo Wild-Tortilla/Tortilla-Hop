@@ -1,11 +1,9 @@
 /* FOOTER */
 .page-footer{
-  background-color: rgb(255, 215, 0);
+  background-color: white;
   width: 100%;
   height: 126px;
-  -webkit-box-shadow: 0px -6px 6px 0px rgba(255,191,0,1);
-  -moz-box-shadow: 0px -6px 6px 0px rgba(255,191,0,1);
-  box-shadow: 0px -6px 6px 0px rgba(255,191,0,1);
+  
   
 }
 /* SOCIAL BUTTONS */
@@ -309,7 +307,6 @@ font-size: 1.2em;
   }
 
 .right_block{
-  display: flex;
   font-family: 'Cardo', serif;
   font-size: 0.8em;
   text-align: justify;
