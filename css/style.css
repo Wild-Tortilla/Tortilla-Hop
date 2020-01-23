@@ -309,6 +309,7 @@ font-size: 1.2em;
   }
 
 .right_block{
+  display: flex;
   font-family: 'Cardo', serif;
   font-size: 0.8em;
   text-align: justify;
