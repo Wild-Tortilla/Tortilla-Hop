@@ -47,6 +47,8 @@ display: block;
     width: 100%;
     z-index: 999;
     top: 0px;
+    background-color:rgba(182, 219, 223, 0.95)!important;
+
     
 }
 
@@ -147,6 +149,13 @@ h4 {
   margin-left: 195px;
 
 }
+
+.h2_recipes{
+  margin: 150px 16px 0px 62px;
+  font-weight: bold;
+}
+}
+
 
 .p_javi{
   font-family: "cardo" , cursive;
