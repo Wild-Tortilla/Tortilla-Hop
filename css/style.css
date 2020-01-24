@@ -2,9 +2,8 @@
 .page-footer{
   background-color:#f8f9fa;
   width: 100%;
-  height: 120px;
+  height: 110px;
   margin-top: 65px;
-
 }
  
 .navbar i{
@@ -62,7 +61,7 @@ display: block;
 .map_animated {
     display: block;
     margin: auto;
-    width: 90%;
+    width: 80%;
     padding: 10px;
 }
 
@@ -73,7 +72,7 @@ display: block;
     text-transform: uppercase;
     letter-spacing: 0.2em;
     margin: 1em auto;
-    margin-top: 109px;
+    margin-top: 150px;
 }
 
 .text_title h1{
@@ -476,12 +475,7 @@ form {
   margin: 0 auto;
   padding-bottom: 1rem;
   width: fit-content;
-<<<<<<< HEAD
-  color: color: rgb(185, 56, 34);
-  
-=======
   color:rgb(185, 56, 34);
->>>>>>> c595d480d495ce22a9f603244b9f1ea09b61156b
 
 }
 
@@ -527,8 +521,6 @@ select{
   border-radius: 0.3em;
   border-color: rgb(255, 210, 8);
   width: 100%;
-<<<<<<< HEAD
-=======
 }
 
 .bg_contact{
@@ -539,5 +531,4 @@ select{
   background-image: url("/img/fondo-tortilla-01.png");
   z-index: -1;
   opacity: 0.3;
->>>>>>> c595d480d495ce22a9f603244b9f1ea09b61156b
 }
