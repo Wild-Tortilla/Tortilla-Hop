@@ -47,7 +47,7 @@ display: block;
     width: 100%;
     z-index: 999;
     top: 0px;
-    background-color:rgba(182, 219, 223, 0.95)!important;
+    background-color:rgba(175, 224, 230, 0.95)!important;
 
     
 }
@@ -466,11 +466,11 @@ form {
     padding: 2rem 3rem;}
 
 .form h2{
-  font-family: 'Cardo', serif;
   margin: 0 auto;
   padding-bottom: 1rem;
   width: fit-content;
   color: #3a3a3a;
+
 }
 
 .form > label {
