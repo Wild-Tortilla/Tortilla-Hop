@@ -469,7 +469,8 @@ form {
   margin: 0 auto;
   padding-bottom: 1rem;
   width: fit-content;
-  color: #3a3a3a;
+  color: color: rgb(185, 56, 34);
+  
 
 }
 
@@ -502,4 +503,11 @@ input:focus{
 .container_contact {
   display: flex;
   justify-content: center;
+}
+
+.button {
+  background-color: rgb(255, 210, 8);
+  border-radius: 0.3em;
+  border-color: rgb(255, 210, 8);
+  width: 100%;
 }
