@@ -2,11 +2,14 @@
 .page-footer{
   background-color:#f8f9fa;
   width: 100%;
-  height: 126px;
+  height: 120px;
   margin-top: 65px;
 
 }
-
+ 
+.navbar i{
+  color: #4a4f50;
+}
 
 
 /* <--------------------SOCIAL BUTTONS-----------------------> */
@@ -71,6 +74,10 @@ display: block;
     letter-spacing: 0.2em;
     margin: 1em auto;
     margin-top: 109px;
+}
+
+.text_title h1{
+  color: #4a4f50;
 }
 
 .motto h2 {
@@ -457,10 +464,10 @@ form {
 
     /* vw is used to allow re-sizing of the contact form depending on the size of the screen used */
     width: 50vw;
-    height: 90vh;
+    height: 92vh;
     background: #ffffff;
     color: #000000;
-
+    line-height: 24px;
     border-radius: 10px;
     box-shadow: 0 0 20px -10px #000;
     padding: 2rem 3rem;}
@@ -480,11 +487,12 @@ form {
 
 label{
   font-family: 'montserrat';
+  text-transform: uppercase;
 
 }
 
 input{
-  font-family: 'montserrat';
+  font-family: 'cardo';
   width: 100%;
   padding: 1rem;
   background: none;
@@ -497,6 +505,10 @@ input{
 
 input:focus{
   border-bottom: 2px solid #78788c
+}
+
+select{
+  width: 100%;
 }
 
 
